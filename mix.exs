@@ -61,7 +61,7 @@ defmodule NicelyBot.MixProject do
       {:crux_gateway, "~> 0.2.3"},
       {:crux_rest, github: "SpaceEEC/crux_rest"},
       {:websockex, "~> 0.4.3"},
-      {:httpoison, "~> 1.8"},
+      {:httpoison, "~> 2.2"},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
     ]
   end
