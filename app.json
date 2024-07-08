@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "predeploy": "mix ecto.migrate && mix run priv/repo/seeds.exs",
+    "dokku": {
+      "predeploy": "mix ecto.migrate"
+    }
+  }
+}

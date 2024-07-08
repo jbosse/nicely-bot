@@ -1,0 +1,25 @@
+{
+  "editor.rulers": [
+    100,
+    120
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/deps": true
+  },
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "nicely_bot_dev",
+      "group": "NicelyBot",
+      "database": "nicely_bot_dev",
+      "username": "postgres",
+      "password": "postgres"
+    }
+  ]
+}
